@@ -42,6 +42,20 @@ section {
     margin: 20px 0; /* Bölümler arasında boşluk */
 }
 
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap; /* Resimleri birden fazla satıra yaymak için */
+    justify-content: center; /* Ortaya hizalama */
+}
+
+.gallery-image {
+    width: 100%; /* Resmin genişliğini kapsayıcıya göre ayarlayın */
+    max-width: 300px; /* Maksimum genişlik 300 piksel */
+    height: auto; /* Yüksekliği otomatik olarak ayarlayın */
+    margin: 30px; /* Resimlerin etrafında daha fazla boşluk bırakın */
+    border-radius: 8px; /* Kenarları yuvarlak yapmak için */
+}
+
 #videos {
     padding: 50px 20px;
     background-color: rgba(0, 0, 0, 0.5); /* Videonun arka planını şeffaf koyu renk yapalım */
