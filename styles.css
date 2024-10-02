@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url('background.jpg'); /* Tüm sayfanın arka planı */
+    background-size: cover; /* Görselin tamamını kaplaması için */
+    background-position: center;
+}
+
+nav {
+    background-color: rgba(52, 58, 64, 0.8); /* Sayfanın üst kısmında biraz transparan bir arka plan */
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('background.jpg'); /* Arka plan görseli burada */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+section {
+    padding: 50px 20px;
+    background-color: rgba(248, 249, 250, 0.7); /* 0.7 saydamlık */
+    margin: 20px 0; /* Bölümler arasında boşluk */
+}
+
+#videos {
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Videonun arka planını şeffaf koyu renk yapalım */
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    display: flex; /* Flexbox kullanarak içerikleri hizalayalım */
+    flex-direction: column; /* Dikey hizalama */
+    align-items: center; /* Ortaya hizalama */
+}
+
+#videos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#videos iframe {
+    width: 80%; /* Videonun genişliğini %80 yapalım */
+    max-width: 800px; /* Maksimum genişlik */
+    height: 450px; /* Yükseklik ayarı */
+    border: 3px solid white; /* Kenarlık */
+    border-radius: 10px; /* Kenarları yuvarlamak için */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Footer arka plan rengi */
+    color: white;
+}
